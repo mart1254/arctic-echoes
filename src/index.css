@@ -1,0 +1,107 @@
+/* General Body Styles */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: #00FF00; /* Bright green text */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: black;
+  border-bottom: 2px solid #00FF00;
+}
+
+.navbar-brand, .nav-link {
+  color: #00FF00 !important;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%2300FF00" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba(0, 255, 0, 1)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #005500;
+  border-color: #00FF00;
+  color: #00FF00;
+}
+
+.btn-primary:hover {
+  background-color: #007700;
+  border-color: #00FF00;
+}
+
+.btn-secondary {
+  background-color: #003300;
+  border-color: #00FF00;
+  color: #00FF00;
+}
+
+.btn-secondary:hover {
+  background-color: #004400;
+  border-color: #00FF00;
+}
+
+.btn-danger {
+  background-color: #550000;
+  border-color: #FF0000;
+  color: #FF0000;
+}
+
+.btn-danger:hover {
+  background-color: #770000;
+  border-color: #FF0000;
+}
+
+/* Cards */
+.card {
+  background-color: #002200;
+  border: 1px solid #00FF00;
+}
+
+.card-title, .card-text {
+  color: #00FF00;
+}
+
+/* Form Elements */
+.form-control, .form-control:focus {
+  background-color: black;
+  color: #00FF00;
+  border-color: #00FF00;
+}
+
+.form-label {
+  color: #00FF00;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #00FF00;
+}
+
+/* Links */
+a {
+  color: #00FF00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.contact-card:hover {
+  transform: scale(1.05);
+  /* box-shadow: 0 10px 23px 0 rgba(0,0,0,0.5); */
+  background-color: black;
+  color: azure;
+}
